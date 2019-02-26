@@ -1,3 +1,36 @@
+.color-nearlywhite {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
+
 body {
     margin: 0;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.page__head {
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+
+.page__head h1 {
+    margin: 0;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 7px;
+    left: 12px;
+    font-size: 26px;
 }

@@ -3,10 +3,6 @@
     color: black;
 }
 
-.border-bottom {
-    border-bottom: 1px solid #ccc;
-}
-
 body {
     margin: 0;
 }
@@ -24,6 +20,7 @@ body {
     width: 100%;
     height: 90px;
     position: relative;
+    border-bottom: 1px solid #bbb;
 }
 
 .page__head h1 {
@@ -31,6 +28,6 @@ body {
     font-family: sans-serif;
     position: absolute;
     bottom: 7px;
-    left: 12px;
-    font-size: 26px;
+    left: 15px;
+    font-size: 32px;
 }
